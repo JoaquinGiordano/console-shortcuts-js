@@ -13,7 +13,7 @@
   Este comando te permitira definir la aplicacion o pagina web a la cual quieras acceder rapidamente. Por ejemplo:
 
   ```
-    cs add github https://www.github.com/ //github vendria a ser la pagina web que queremos iniciar y a su derecha tenemos la url de github
+    cs add github https://www.github.com/
   ```
 
   ### cs (app/website name)
