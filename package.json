@@ -1,0 +1,21 @@
+{
+  "name": "console-shortcuts",
+  "version": "1.0.0",
+  "description": "Inicia las paginas web y aplicaciones que mas utilizas con un simple comando de consola",
+  "main": "./lib/index.js",
+  "bin": {
+    "cs": "./bin/exec.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joaquin Giordano <joaquin_giordano@outlook.com>",
+  "license": "MIT",
+  "repository":"https://github.com/JoaquinGiordano/console-shortcuts",
+  "dependencies": {
+    "opn": "^5.3.0"
+  }
+}
