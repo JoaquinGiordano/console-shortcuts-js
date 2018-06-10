@@ -1,6 +1,6 @@
 {
   "name": "console-shortcuts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Inicia las paginas web y aplicaciones que mas utilizas con un simple comando de consola",
   "main": "./lib/index.js",
   "bin": {
