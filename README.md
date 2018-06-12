@@ -9,25 +9,25 @@
 ## Utilización
 
 
-  ### cs add (app name) (app location)
+  ### cs add (app name) "(app location)"
   Este comando te permitira definir la aplicacion a la cual quieras acceder rapidamente. Por ejemplo:
 
   ```
-    cs add jsonvisualizer C:/json-visualizer/json-visualizer.exe
+    cs add chrome "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
   ```
 
-  ### cs add (website name) (website URL)
+  ### cs add (website name) "(website URL)"
   Este comando te permitira definir la pagina web a la cual quieras acceder rapidamente. Por ejemplo:
 
   ```
-    cs add github https://www.github.com/
+    cs add github "https://www.github.com/"
   ```
 
-  ### cs add (directory name) dir:///(directory)
+  ### cs add (directory name) "dir:///(directory)"
   Este comando te permitira definir el directorio al cual quieras acceder rapidamente. Esto solo funciona para directorios, la diferencia es que debes ingresar "dir:///" antes de ingresar el directorio para que se detecte que lo que intentas abir es un direcorio Por ejemplo:
 
   ```
-    cs add usuarios dir:///C:/users
+    cs add usuarios "dir:///C:/users"
   ```
   > Nota: tambien puede ustilizar dir:// en vez de dir:///.
 
