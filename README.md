@@ -16,6 +16,14 @@
     cs add github https://www.github.com/
   ```
 
+  ### cs add (directory name) dir:///(directory)
+  Este comando te permitira definir el directorio al cual quieras acceder rapidamente. Esto solo funciona para directorios, la diferencia es que debes ingresar "dir:///" antes de ingresar el directorio para que se detecte que lo que intentas abir es un direcorio Por ejemplo:
+
+  ```
+    cs add usuarios dir:///C:/users
+  ```
+  > Nota: tambien puede ustilizar dir:// en vez de dir:///.
+
   ### cs (app/website name)
   Este comando te permitira iniciar las aplicaciones o paginas webs que hayas definido con el comando ```cs add (app/website name) (app location/website url)```. Por ejemplo:
   
