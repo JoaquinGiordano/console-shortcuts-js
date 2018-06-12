@@ -9,8 +9,15 @@
 ## Utilización
 
 
-  ### cs add (app/website name) (app location/website url)
-  Este comando te permitira definir la aplicacion o pagina web a la cual quieras acceder rapidamente. Por ejemplo:
+  ### cs add (app name) (app location)
+  Este comando te permitira definir la aplicacion a la cual quieras acceder rapidamente. Por ejemplo:
+
+  ```
+    cs add jsonvisualizer C:/json-visualizer/json-visualizer.exe
+  ```
+
+  ### cs add (website name) (website URL)
+  Este comando te permitira definir la pagina web a la cual quieras acceder rapidamente. Por ejemplo:
 
   ```
     cs add github https://www.github.com/
@@ -24,22 +31,22 @@
   ```
   > Nota: tambien puede ustilizar dir:// en vez de dir:///.
 
-  ### cs (app/website name)
-  Este comando te permitira iniciar las aplicaciones o paginas webs que hayas definido con el comando ```cs add (app/website name) (app location/website url)```. Por ejemplo:
+  ### cs (app name/website name/directory name)
+  Este comando te permitira iniciar las aplicaciones, paginas webs o directorios que hayas definido con el comando ```cs add ...```. Por ejemplo:
   
   ```
     cs github
   ```
   
   ### cs list
-  Este comando te mostrara un listado de las aplicaciones o paginas webs que tienes configuradas hasta el momento. Por ejemplo:
+  Este comando te mostrara un listado de las aplicaciones, paginas webs o directorios que tienes configuradas hasta el momento. Por ejemplo:
 
   ```
     cs list
   ```
 
   ### cs remove (app id)
-  Este comando te permitira eliminar alguna aplicación del listado. Por ejemplo:
+  Este comando te permitira eliminar alguna aplicación, pagina web o directorio del listado. Por ejemplo:
 
   ```
     cs remove 0
