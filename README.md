@@ -58,3 +58,10 @@
     cs remove 0
   ```
   > Nota: Puedes obtener la id de cada aplicación cuando escribes ```cs list```
+
+   ### cs move (app id) (positionid)
+  Este comando te permitira mover la posición de un shortcut. Por ejemplo:
+
+  ```
+    cs move 0 2
+  ```

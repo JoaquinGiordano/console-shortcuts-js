@@ -18,7 +18,11 @@ var lib = require('../lib/index.js');
         lib.shortcut.remove(args[1]);
     }
 
-if (args[0] != "add" && args[0] != "remove" && args[0] != "rm" && args[0] != "list" && args[0] != "ls" && args[0] != "help"){
+    if (args[0] == "move" || args[0] == "mv") {
+        lib.shortcut.move(args[1], args[2]);
+    }
+
+    if (args[0] != "add" && args[0] != "remove" && args[0] != "rm" && args[0] != "list" && args[0] != "ls" && args[0] != "help" && args[0] != "move" && args[0] != "mv"){
         lib.start(args[0]);
     }
 
