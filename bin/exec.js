@@ -10,16 +10,20 @@ var lib = require('../lib/index.js');
         }
     }
 
-    if(args[0] == "list"){
+    if(args[0] == "list" || args[0] == "ls"){
         lib.shortcut.list();
     }
   
-    if(args[0] == "remove"){
+    if (args[0] == "remove" || args[0] == "rm"){
         lib.shortcut.remove(args[1]);
     }
 
-    if(args[0] != "add" && args[0] != "remove" && args[0] != "list"){
+if (args[0] != "add" && args[0] != "remove" && args[0] != "rm" && args[0] != "list" && args[0] != "ls" && args[0] != "help"){
         lib.start(args[0]);
+    }
+
+    if(args[0] == "help"){
+        lib.help();
     }
     
         

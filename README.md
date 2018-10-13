@@ -8,6 +8,12 @@
 
 ## Utilización
 
+  ### cs help
+  Este comando te mostrara un listado de los comandos que pueden ser utilizados. Por ejemplo:
+
+  ```
+    cs list
+  ```
 
   ### cs add (app name) "(app location)"
   Este comando te permitira definir la aplicacion a la cual quieras acceder rapidamente. Por ejemplo:
