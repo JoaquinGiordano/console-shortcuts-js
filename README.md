@@ -35,7 +35,7 @@
   ```
     cs add usuarios "dir:///C:/users"
   ```
-  > Nota: tambien puede ustilizar dir:// en vez de dir:///.
+  > Nota: tambien puede utilizar dir:// en vez de dir:///.
 
   ### cs (app name/website name/directory name)
   Este comando te permitira iniciar las aplicaciones, paginas webs o directorios que hayas definido con el comando ```cs add ...```. Por ejemplo:
