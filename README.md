@@ -65,3 +65,9 @@
   ```
     cs move 0 2
   ```
+  
+  ## Contribuir
+    1. Hacer un fork del repositorio
+    2. Clonar tu fork
+    3. Hacer tus cambios
+    4. Crear una Pull Request
